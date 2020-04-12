@@ -27,7 +27,8 @@ public class CronSample {
                 .instance();
         System.out.println(cron.asString());
         ExecutionTime execTime = ExecutionTime.forCron(cron);
-        System.out.println(execTime.nextExecution(ZonedDateTime.now()));
+        ZonedDateTime now = ZonedDateTime.parse("2020-04-12T10:15:30+09:00");
+        System.out.println(execTime.nextExecution(now).get());// 020-05-09T00:00+09:00
     }
 
 }
