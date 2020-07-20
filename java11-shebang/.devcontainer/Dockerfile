@@ -66,3 +66,5 @@ RUN export DEBIAN_FRONTEND=noninteractive \
 
 # Allow for a consistant java home location for settings - image is changing over time
 RUN if [ ! -d "/docker-java-home" ]; then ln -s "${JAVA_HOME}" /docker-java-home; fi
+
+ENV TZ Asia/Tokyo
