@@ -1,0 +1,8 @@
+#! /usr/local/openjdk-11/bin/java --source 11
+package com.kdnakt;
+
+public class App {
+    public static void main(String... args) {
+        System.out.println("Hello shebang!");
+    }
+}
