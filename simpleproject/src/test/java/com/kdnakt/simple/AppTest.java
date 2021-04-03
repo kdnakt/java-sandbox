@@ -13,4 +13,8 @@ public class AppTest {
         assertEquals(2, app.add(1, 1));
     }
 
+    @Test
+    public void testEasy() {
+        assertEquals(2, app.add(2, 0));
+    }
 }
