@@ -16,7 +16,7 @@
       <plugin>
         <artifactId>maven-javadoc-plugin</artifactId>
         <configuration>
-          <bottom>&copy; Made in Tokyo</bottom>
+          <bottom>&copy; {currentYear} Made in Tokyo</bottom>
         </configuration>
       </plugin>
     </plugins>
