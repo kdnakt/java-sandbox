@@ -77,5 +77,6 @@
     <module>02orgName</module>
     <module>03originalBottom</module>
     <module>04originalBottomWithHtml</module>
+    <module>05empty</module>
   </modules>
 </project>
