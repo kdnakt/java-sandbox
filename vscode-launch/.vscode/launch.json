@@ -1,0 +1,26 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch App (single line)",
+            "request": "launch",
+            "mainClass": "com.kdnakt.simple.App",
+            "vmArgs": "-Dfoo=hoge1 -Dbar=fuga1",
+            "projectName": "simple-project"
+        }, {
+            "type": "java",
+            "name": "Launch App (array)",
+            "request": "launch",
+            "mainClass": "com.kdnakt.simple.App",
+            "vmArgs": [
+                "-Dfoo=hoge2",
+                "-Dbar=fuga2",
+            ],
+            "projectName": "simple-project"
+        }
+    ]
+}
